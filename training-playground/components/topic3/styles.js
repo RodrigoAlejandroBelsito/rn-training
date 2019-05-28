@@ -5,30 +5,33 @@ export default StyleSheet.create(
         container: {
             flex: 1,
             flexDirection: 'column',
+            alignItems: 'center',
             alignContent: 'center',
             justifyContent: 'space-between',
-            padding: 0,
+            padding: 10,
         },
         box: {
             borderRadius: 25,
         },
         box1: {
-            flex: 0.5,
             backgroundColor: '#00BFFF',
             width: 100,
             height: 100,
+            alignSelf: 'flex-start',
         },
         box2: {
-            flex: 0.3,
             backgroundColor: '#1E90FF',
             width: 100,
             height: 100,
+            alignItems: 'center',
+
         },
         box3: {
-            flex: 0.2,
             backgroundColor: '#6495ED',
             width: 100,
             height: 100,
+            alignSelf: 'flex-end',
+
         }
     }
 );
